@@ -14,10 +14,10 @@ dependencies = [
     "albumentations>=1.4.0",
     "boto3>=1.26.16",
     "braceexpand>=0.1.7",
-    "diffusers==0.20.0",
+    "diffusers>=0.24.0",  # Upgrade to a newer version
     "einops>=0.7.0",
     "ftfy==6.1.0",
-    "huggingface_hub>=0.20.0",
+    "huggingface_hub>=0.20.0",  # Keep this as is
     "matplotlib>=3.6.2",
     "numpy>=1.26.4",
     "opencv_python>=4.9.0.80",
@@ -36,7 +36,6 @@ dependencies = [
     "wandb>=0.13.5",
     "webdataset>=0.2.86",
 ]
-
 [project.optional-dependencies]
 fast = [
     "xformers>=0.0.24",
